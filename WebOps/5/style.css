@@ -1,0 +1,29 @@
+.h1{
+    margin: 0rem;
+    padding: 4rem;
+    justify-content: center;
+    background-color: #1C1C1BFF;
+    color: #CE4A7EFF;
+    font-size: 3rem;
+}
+
+body{
+    background-color: black;
+}
+ul{
+    margin: 2rem;
+    padding: 3rem;
+    height: 20rem;
+    width: 50px;
+    background-color: #CE4A7EFF;
+    list-style: square;
+    justify-content: center;
+    list-style: square;
+    font-size: 2rem;
+    color: #1C1C1BFF;
+}
+
+ul :hover{
+    list-style: decimal;
+    transform: scale(0.85);
+}

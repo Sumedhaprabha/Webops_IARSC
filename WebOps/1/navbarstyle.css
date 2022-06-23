@@ -1,0 +1,47 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+}
+nav{
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: rgb(151, 68, 57);
+  font-family: 'Oswald', sans-serif;
+  top: 0%;
+  position: sticky;
+}
+
+.logo{
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  list-style: none;
+}
+.nav-links a{
+  color: beige;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.image{
+  width: 94.95rem;
+  height: 50rem;
+  background-position:5rem rem;
+  background-size: cover;
+  background-image: url(/images/Twitter-Shared-1024-x-512.png);
+}

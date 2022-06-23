@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    margin: 3rem;
+    height: 50rem;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+.box1, .box2, .box3, .box4, .box5{
+    flex-basis: 10%;
+    margin: 2.5px;
+    padding: 2rem;
+    border: 5px rgb(53, 31, 31) solid ;
+    height: 20rem;
+    background-color: firebrick;
+    color: antiquewhite;
+    
+}
+
+.box1, .box5{
+    opacity: 0.78;
+}
+
+body{
+    background-color: aquamarine;
+}
