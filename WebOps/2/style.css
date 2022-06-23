@@ -1,10 +1,10 @@
-*{
+*{/*Removing the default settings*/
     margin: 0%;
     padding:0%;
     box-sizing: border-box;
 }
 
-h1{
+h1{/*Styling the header*/
     margin: 5rem 10rem 0rem 10rem ;
     padding: 2rem;
     width: 80%;
@@ -21,7 +21,7 @@ h1{
     background-color: rgb(201, 89, 89);
 }
 
-h2{
+h2{/*Styling the second line*/
     margin: 0rem 10rem 2rem 10rem ;
     padding: 1rem;
     width: 80%;
@@ -38,11 +38,11 @@ h2{
     background-color: rgb(201, 89, 89);
 }
 
-body{
+body{/*Background colour*/
     background-color: rgb(80, 78, 82);
 }
 
-form{
+form{/*Styling the forms*/
     text-align: center;
     justify-content: space-around;
     padding: 1rem;
@@ -64,7 +64,7 @@ button{
     
 }
 button :hover
-{
+{/*To change the cursor and color when hovered over*/
     background : rgb(180, 171, 170);
     cursor:pointer;
 }
