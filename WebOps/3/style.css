@@ -1,10 +1,10 @@
-*{
+*{/*Removing the default settings*/
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-.container{
+.container{/*Creating the flex bos*/
     display: flex;
     margin: 3rem;
     height: 50rem;
@@ -13,7 +13,7 @@
     
 }
 
-.box1, .box2, .box3, .box4, .box5{
+.box1, .box2, .box3, .box4, .box5{/*Styling the boxes inside the flex*/
     flex-basis: 10%;
     margin: 2.5px;
     padding: 2rem;
@@ -24,7 +24,7 @@
     
 }
 
-.box1, .box5{
+.box1, .box5{/* To mention the opacity*/
     opacity: 0.78;
 }
 
