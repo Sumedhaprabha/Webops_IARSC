@@ -1,10 +1,10 @@
-*{
+*{/*Removing the default settings*/
     margin: 0%;
     padding:0%;
     box-sizing: border-box;
 }
 
-h1{
+h1{/*styling the response*/
     margin: 5rem 10rem 2rem 10rem ;
     padding: 2rem;
     width: 80%;
