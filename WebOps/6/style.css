@@ -1,4 +1,4 @@
-.h1{
+.h1{/*Styling the header*/
     margin: 2rem;
     padding: 2rem;
     color: #6f2232;
@@ -6,11 +6,11 @@
     font-size: 3rem;
     border: black 5px solid;
 }
-body{
+body{/*Background color*/
     background-color: #4e4e50;
 }
 
-ul{
+ul{/*Styling the lists*/
     margin: 2rem;
     padding: 2rem;
     height: 25rem;
@@ -19,7 +19,7 @@ ul{
     font-size: 2rem;
     border: black 5px solid;
 }
-
+/*Decorating in different styles*/
 .l1{
     text-decoration: underline;
     font-family: 'Staatliches', cursive;
