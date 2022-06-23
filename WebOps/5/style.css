@@ -1,4 +1,4 @@
-.h1{
+.h1{/*Styling the header*/
     margin: 0rem;
     padding: 4rem;
     justify-content: center;
@@ -7,10 +7,10 @@
     font-size: 3rem;
 }
 
-body{
+body{/*Background color*/
     background-color: black;
 }
-ul{
+ul{/*Styling lists*/
     margin: 2rem;
     padding: 3rem;
     height: 20rem;
@@ -23,7 +23,7 @@ ul{
     color: #1C1C1BFF;
 }
 
-ul :hover{
+ul :hover{/*Changing the bulletin if hovered upon*/
     list-style: decimal;
     transform: scale(0.85);
 }
