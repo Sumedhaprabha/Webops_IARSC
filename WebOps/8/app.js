@@ -1,11 +1,13 @@
-const email = document.getElementById("email");
+//Object to store value from input in the html page
 const pwd = document.getElementById("pwd");
 
-pwd.addEventListener("input",()=>{
-    const passbox = document.querySelector('.emailbox');
-    const passtext = document.querySelector('.emailtext');
-    const passpattern = /(?=.*[\!\@\#\$\%\^\&\*\,\.\<\>\?\(\)])(?=.*[a-z])(?=.*[A-Z]).{8,}/;
+//manages an event in the html page
+pwd.addEventListener("input",()=>{ 
+    const passbox = document.querySelector('.passbox');
+    const passtext = document.querySelector('.passtext');
+    const passpattern = /(?=.*[\!\@\#\$\%\^\&\*\,\.\<\>\?\(\)])(?=.*[a-z])(?=.*[A-Z]).{8,}/; //Object to store conditions
    
+    //If condition to check for a valid password
     if(pwd.nodeValue.match(passpattern))
     {
         passbox.classList.add('valid');
