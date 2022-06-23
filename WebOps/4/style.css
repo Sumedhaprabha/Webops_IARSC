@@ -1,11 +1,11 @@
-body{
+body{/*Styling the background*/
     background-color: darkslateblue;
     margin: 10rem;
     padding: 5em;
     justify-content:space-around;
 }
 
-.pac{
+.pac{/*Styling the pacman*/
     width: 50px;
     height: 50px;
     margin: 0rem 2rem;
@@ -17,7 +17,7 @@ body{
     animation-iteration-count: 1;
 }
 
-.c1 ,.c2,.c3,.c4,.c5,.c6,.c7,.c8{
+.c1 ,.c2,.c3,.c4,.c5,.c6,.c7,.c8{/*Styling the food*/
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -28,7 +28,7 @@ body{
     animation-iteration-count: 1;
 }
 
-@keyframes pacman{ 
+@keyframes pacman{ /*Animating the pacman to move across the screen*/
     0%   {background-color:aqua; left:0px; top:0px;}
   12.5%  {background-color:aqua; left:125px; top:0px;}
   25%  {background-color:aqua; left:250px; top:0px;}
@@ -41,10 +41,11 @@ body{
     
 }
 
-@keyframes food {
+@keyframes food {/*Animating food to disappear*/
    0%{opacity: 0%;}
     
 }
+/*Delay to create eating effect*/
 .c1{animation-delay: 0.1s;}
 .c2{animation-delay: 0.6s;}
 .c3{animation-delay: 1.1s;}
