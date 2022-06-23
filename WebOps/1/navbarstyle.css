@@ -1,24 +1,29 @@
 *{
+  /*To remove default settings*/
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
 body{
+  /*To ensure sticky nav bar*/
   position: relative;
 }
+
 nav{
+  /* flex box to make list items appear in a single line*/
   display : flex;
-  justify-content: space-around;
+  justify-content: space-around;/* to place the lists in order*/
   align-items: center;
   min-height: 8vh;
-  background-color: rgb(151, 68, 57);
-  font-family: 'Oswald', sans-serif;
+  background-color: rgb(151, 68, 57); /*to give color for the nav bar*/
+  font-family: 'Oswald', sans-serif; /*Imported font style*/
   top: 0%;
-  position: sticky;
+  position: sticky; /*To ensure sticky nav bar*/
 }
 
 .logo{
+  /*Styling the title*/
   color: black;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -26,19 +31,24 @@ nav{
 }
 
 .nav-links{
+  /*Arranging the lists*/
   display: flex;
   justify-content: space-around;
   width: 30%;
   list-style: none;
 }
+
 .nav-links a{
+  /*Styling the lists*/
   color: beige;
   text-decoration: none;
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 14px;
 }
+
 .image{
+  /*Background image*/
   width: 94.95rem;
   height: 50rem;
   background-position:5rem rem;
