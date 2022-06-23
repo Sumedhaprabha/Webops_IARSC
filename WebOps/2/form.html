@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <!-- Links for icon, style sheet and fonts-->
     <link rel="icon" href="/Screenshot 2022-06-19 113032.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Oswald&display=swap" rel="stylesheet">
@@ -12,7 +13,8 @@
 <body>
     <h1>Forms</h1>
     <h2>Fill your responses here :</h2>
-    <form action="/thanks.html">
+    <form action="/thanks.html"> <!--goes to another page after submitting-->
+        <!--Getting input for username, email , password and mobile no-->
         <label for="user">Username</label><br>
         <input type="text" id="user" name="user" placeholder="Username" required><br>
         <label for="email">Email-ID</label><br>
@@ -21,6 +23,7 @@
         <input type="password" id="pwd" name="pwd" placeholder="As%$-6w6)"required><br>
         <label for="mbno">Mobile-no</label><br>
         <input type="tel" id="mbno" name="mbno" pattern="[0-9]{10}" placeholder="0000000000"required><br>
+        <!--Buttons to submit and reset-->
         <button><input type="submit"></button>
         <button> <input type="reset"></button>
     </form>
