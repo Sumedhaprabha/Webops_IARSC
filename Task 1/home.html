@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <script src="/home.js" ></script>
+    <link rel="stylesheet" href="/home.css">
+    <link rel="icon" href="/Screenshot 2022-06-19 113032.png">
+</head>
+
+<nav>
+    <h1>The Library</h1>
+       
+</nav>
+<body>
+
+    <div>
+    <table id="myTable" width="100%">
+      <colgroup>
+        <col span="3">
+        <col span="1"  style="visibility:collapse" >
+      </colgroup>
+        <thead>
+            <td>Book</td>
+            <td>Author</td>
+            <td>Publications</td>
+            <td colspan="2">Details</td>
+            <td>Status</td>
+            <td>Mark</td>
+            <td>Delete</td>
+        </thead>
+        <tr>
+          <td>The Da Vinci Code</td>
+          <td>Dan Brown</td>
+          <td>Corgi Books</td>
+          <td >A Quest almost as old as time itself. An object thought lost forever. A deadly race to possess it.</td>
+          <td><input type="button" id="DB" value="Show" onclick="Det(this)"></td>
+          <td>Unread</td>
+          <td><input type="button" value="Mark as read" onclick="Mark(this)"/></td>
+          <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+        </tr>
+        <tr>
+          <td>Harry Potter Series</td>
+          <td>J.K Rowling</td>
+          <td>Bloomsburg</td>
+          <td >Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms, a lion, an eagle, a badger and a snake surrounding a large H</td>
+          <td><input type="button" id="DB" value="Show" onclick="Det(this)" ></td>
+          <td>Unread</td>
+          <td><input type="button" value="Mark as read" onclick="Mark(this)"/></td>
+          <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+        </tr>
+        <tr>
+          <td>Introduction to Electrodynamics</td>
+          <td>David J.Griffiths</td>
+          <td>Pearson</td>
+          <td >A complete guide to the first year electro-dynamics physics course in your college</td>
+          <td><input type="button" id="DB" value="Show" onclick="Det(this)"></td>
+          <td>Unread</td>
+          <td><input type="button" value="Mark as read" onclick="Mark(this)"/></td>
+          <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+        </tr>
+        <tr>
+          <td>Classical Dynamics of systems and particles</td>
+          <td>Marion, Thornton</td>
+          <td>Brookscole</td>
+          <td >A complete guide to the first year mechanics course in your college</td>
+          <td><input type="button" id="DB" value="Show"onclick="Det(this)"></td>
+          <td>Unread</td>
+          <td><input type="button" value="Mark as read" onclick="Mark(this)"/></td>
+          <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+        </tr>
+        <tr>
+          <td>Thomas Calculus</td>
+          <td>Geroge B.Thomas Jr</td>
+          <td>Pearson</td>
+          <td >The best book to understand the ever confusing first year calculus</td>
+          <td><input type="button"  id="DB" value="Show" onclick="Det(this)"/></td>
+          <td>Unread</td>
+          <td><input type="button" value="Mark as read" onclick="Mark(this)"/></td>
+          <td><input type="button" value="Delete" onclick="deleteRow(this)"/></td>
+        </tr>
+      </table>
+      <br> 
+       
+    </div>
+    <div id="Form">
+            <h2 id="fh">Fill the details of the book to add :</h2>
+            <label for="name">Book name : </label>
+            <input type="text" name="name" id="name"><br>
+            <label for="author">Author : </label>
+            <input type="text" name="author" id="author"><br>
+            <label for="publications"> Publications: </label>
+            <input type="text" name="publications" id="publications"><br>
+            <label for="desc">Description</label>
+            <input type="text" id="desc" name="desc"><br>
+            <input type="submit" id="submit" value="Add new" onclick="insRow()">
+
+        </div>
+    <footer><small>Happy Reading!</small></footer>
+</body>
+</html>

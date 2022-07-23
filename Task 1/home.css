@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border: solid black 5px;
+    color: rgb(179, 173, 173);
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+body{
+    background-image: url(/emma\ watson.jpg);
+    width: 100%;
+}
+
+
+div{
+    
+    border: solid white 2px;
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+    
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-top:10px;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    margin-left: 10rem;
+    margin-top: 1.5rem;
+}
+
+footer{
+    background-color:black;
+    color:rgb(187, 175, 175);
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center ;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid white 1px;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10rem;
+}
+
+thead{
+    background-color:wheat;
+}
+
+th, td {
+    border: solid white 1px;
+    padding: 15px;
+    justify-content: center;
+  }
+
+tr {
+    border-bottom: 2.5px solid rgb(93, 88, 88);
+  }
+
+tr:hover {background-color: #D6EEEE;}
+
+h2{
+    padding: 15px;
+    background-color: wheat;
+    width: 100%;
+}
+
